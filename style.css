@@ -392,7 +392,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 3rem;
 }
 .contact-button {
   position: fixed;
@@ -470,7 +470,17 @@ section {
     color: white;
 
 }
+.contact-icon {
+  filter: brightness(0) invert(1);
+ /* transforme en blanc */
+}
+
 @media (max-width: 1285px) {
+  .contact-info-upper-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   #menu-icon {
     display: block;
   }
