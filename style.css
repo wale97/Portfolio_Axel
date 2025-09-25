@@ -287,6 +287,7 @@ section {
 .service-info i {
   font-size: 8rem;
 }
+
 .projects {
   background-color: var(--second-bg-color);
 }
@@ -331,7 +332,8 @@ section {
   font-weight: 600;
   line-height: 1.7;
 }
-.contact {
+/*  C  O  N  T  A  C  T  2  */
+/*.contact {
   background-color: var(--bg-color);
 }
 .contact h2 {
@@ -356,7 +358,7 @@ section {
   border-radius: 2rem;
   border: 2px solid var(--main-color);
   margin: 1.5rem 0;
-}
+}*/
 
 /*  F  O  O  T  E  R  */
 .footer {
@@ -386,7 +388,88 @@ section {
   margin-top: 40px;
   font-size: 16px;
 }
+/*  C  O  N  T  A  C  T    B  U  T  T  O  N    N  E  W    */
 
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+.contact-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  color: var(--text-color);
+}
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  /*border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);*/
+    background-color: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius:20px;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  color: var(--main-color);
+}
+.contact-info-upper-container:hover {
+  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
+    0 0 100px var(--main-color);
+  transform: scale(1.2);
+}
+
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+  color:var(--main-color);
+}
+.contact-info-container p {
+  font-size: larger;
+  color: black;
+}
+.contact-icon {
+  cursor: default;
+}
+/*  C  O  N  T  A  C  T    B  U  T  T  O  N    N  E  W  */
+
+.section-text-p1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.title {
+  text-align: center;
+  font-size: 7rem;
+  margin: 5rem 0;
+}
+.contact p {
+  font-size: 5rem;
+  line-height: 1.5rem;
+}
+.contact-info-upper-container a{
+  color: white;
+  text-decoration: none;
+}
+.contact-info-upper-container .icon{
+    color: white;
+
+}
 @media (max-width: 1285px) {
   #menu-icon {
     display: block;
@@ -431,14 +514,14 @@ section {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .about h2{
+  .about h2 {
     text-align: center;
-    margin:2rem 0;
+    margin: 2rem 0;
   }
   .about img {
     width: 52vw;
   }
-  .contact form{
-    flex-direction:column;
+  .contact form {
+    flex-direction: column;
   }
 }
