@@ -280,6 +280,12 @@ section {
   margin: 2rem 0;
   font-weight: 800;
 }
+.service-info h5{
+  font-size:2.5rem;
+  margin: 1.5rem 0;
+  font-weight :600;
+
+}
 .service-info p {
   font-size: 1.4rem;
   font-weight: 600;
@@ -332,6 +338,9 @@ section {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.7;
+}
+.descriptif{
+  margin: 15px;
 }
 /*  C  O  N  T  A  C  T  2  */
 /*.contact {
